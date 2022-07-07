@@ -21,7 +21,7 @@ That's the best way to argue about tech decisions and keep track of it.
 
 ```terraform
 module "dev_cluster" {
-  source         = "git@github.com:gomex/terraform-module-groundwork.git?ref=v0.1"
+  source         = "git@github.com:rsalesfreitas/terraform-module-groundwork.git?ref=main"
   environment    = "development"
 }
 ```
